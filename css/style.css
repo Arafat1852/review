@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
+
+body{
+    font-family: 'Josefin Sans', sans-serif
+}
+/*Header Section Code*/
+.logo-edit{width: 150px;}
+.header-logo{max-width: 50%;}
+.nav-item{padding: 0px 20px;margin: 10px 0px;}
+.nav-item a{font-weight: 500;font-size: 17px;line-height: 23px;color: #4d504a;padding: 0px !important;}
+.line a{border-bottom: 1px solid;}
+.line a:hover{border-bottom: 1px solid #7971ea;}
+.lined a:hover{border-bottom: 1px solid #7971ea;}
+.header-button a i{margin: 0px 15px;color: black;}
+.header-button a i:hover{color: #7971ea;transition: 0.2s;}
+/*Banner Section Code*/
+.ban-p{font-size: 3rem;font-weight: 900;color: black;line-height: 1.2;text-align: center;}
+.parallax{height: 100vh;overflow-y: auto;overflow-x: hidden;perspective: 10px;}
+.banner{height: 100vh;overflow-y: auto;overflow-x: hidden;perspective: 10px;
+	position: relative;display: flex;justify-content: center;align-items: center;
+	height: 100%;transform-style: preserve-3d;z-index: -1;}
+.backward{transform: translateZ(-10px) scale(2);position: absolute;height: 100%;max-width: 100%;
+	object-fit: cover;z-index: -1;}
